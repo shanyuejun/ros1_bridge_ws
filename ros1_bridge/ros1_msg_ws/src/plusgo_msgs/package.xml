@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name> plusgo_msgs</name>
+  <version>0.0.0</version>
+  <description>The plusgo_msgs package</description>
+
+  <maintainer email="001@plusgo.com.cn">001</maintainer>
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
